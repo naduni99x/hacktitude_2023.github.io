@@ -134,23 +134,6 @@ Although the challenges are independent from one another, it will be easier for 
 
 Have fun!
 
-|       |  |  |
-| ----------- | ----------- |----------- |
-| [Challenge 0](./challenge-0.md)| [Challenge 1](./challenge-1.md)|[Challenge 2](./challenge-2.md)|
-| [Challenge 3](./challenge-3.md)| [Challenge 4](./challenge-4.md)|[Challenge 5](./challenge-5.md)|
-| [Challenge 6](./challenge-6.md)| [Challenge 7](./challenge-7.md)|[Challenge 8](./challenge-8.md)|
-| [Challenge 9](./challenge-9.md)| [Challenge 10](./challenge-10.md)|[Challenge 11](./challenge-11.md)|
-| [Challenge 12](./challenge-12.md)| [Challenge 13](./challenge-13.md)|[Challenge 14](./challenge-14.md)|
-| [Challenge 15](./challenge-15.md)| [Challenge 16](./challenge-16.md)|[Challenge 17](./challenge-17.md)|
-| [Challenge 18](./challenge-18.md)|||
-
->Once you solve a particular challenge (or a part of the challenge), `git push` the code to remote `master` branch in the repository. You can collaborate as a team on the upstream repository by using it as your trunk.
-
->Every time you push the code to the upstream, automatic test cases are triggered to calculate your team's score. Therefore please ensure you only push stable code. **Your team's last pushed code will be considered for your scores.**
-
->If scores are a tie, teams will be ordered by the `last push time`. Earlier you push the final code, better your rank will be. **Therefore please ensure NOT to push unnecessarily after you have completed the challenges.**
-
->Each test has a timeout of 30 secs. You need to ensure any of your code implementations does not perform badly causing your tests to timeout. Test timeout due to bad performing code will be considered as a legitimate test failure.
 
 ## Getting support
 
