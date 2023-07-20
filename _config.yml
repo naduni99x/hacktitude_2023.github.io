@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: Hacktitude-2023
-description: Bookmark this to keep an eye on my project updates!
+description: Are you the best in the league? Participate in Hacktitude, earn 99 points, and prove what you are worth!
+github:
+  is_project_page: false
