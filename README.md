@@ -1,4 +1,4 @@
-# Welcome to `Hacktitude.io 2023`
+# Welcome to `Hacktitude Malaysia 2023`
 
 >>DISCLAIMER: Please note that this project is created only for the purpose of Hacktitude.io and does NOT represent best practices of software development. The project contains purposefully placed errors, bad design practices, bad code quality and security malpractices.
 
@@ -15,7 +15,8 @@ This section helps you to understand the prerequisite required and how to work w
 
 Installations of stable versions of `Git`, `Node.js` and `npm` are required on your computer. You must also be proficient in working with the aforementioned technologies.
 
-**Recommended NodeJS version : 14.15.0**
+**Recommended NodeJS version : 14.15.0** : `https://nodejs.org/ja/blog/release/v14.15.0`
+**Git** : `https://git-scm.com/downloads`
 
 ### Clone the project to your local computer
 
