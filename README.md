@@ -145,6 +145,10 @@ Although the challenges are independent from one another, it will be easier for 
 
 Have fun!
 
+|       |  |  |
+| ----------- | ----------- |----------- |
+| [Challenge 0](./challenge-0.md)|||
+
 
 ## Getting support
 
@@ -152,8 +156,8 @@ There will be minimal to no support available on the context day. We are not in 
 
 ## References
 
-* [Hacktitude official website](https://www.hacktitude.io){:target="_blank"}
-* [Hacktitude FAQ](https://www.hacktitude.io/faq){:target="_blank"}
-* [99x website](https://99x.io){:target="_blank"}
-* [DevGrade website](https://devgrade.io/){:target="_blank"}
+* [Hacktitude official website](https://www.hacktitude.io)
+* [Hacktitude FAQ](https://www.hacktitude.io/faq)
+* [99x website](https://99x.io)
+* [DevGrade website](https://devgrade.io/)
 
