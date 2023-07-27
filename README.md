@@ -15,8 +15,13 @@ This section helps you to understand the prerequisite required and how to work w
 
 Installations of stable versions of `Git`, `Node.js` and `npm` are required on your computer. You must also be proficient in working with the aforementioned technologies.
 
-**Recommended NodeJS version : 14.15.0** : `https://nodejs.org/ja/blog/release/v14.15.0`
-**Git** : `https://git-scm.com/downloads`
+**Recommended NodeJS version : 14.15.0** : [https://nodejs.org/ja/blog/release/v14.15.0](https://nodejs.org/ja/blog/release/v14.15.0)
+
+**Git** : [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+To ensure seamless management of multiple Node.js versions on your machine, it is highly recommended to use a **Node version Manager(NVM)**. 
+
+**Node version Manager(NVM)** : [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 ### Clone the project to your local computer
 
@@ -32,17 +37,19 @@ Once you clone the project from your team's Git repository, run the following co
 
 * `npm install`
 
+In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the name of the cloned repo folder name.
+
 ### Validate if the environment is correctly setup
 
 You can run the Sanity test file in the `tests` directory with the below command.
 
-* `npm test -- _sanity`
+* `npm test ./tests/_sanity.test.js`
 
 If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fail, that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
 
 ### Setting up the development database
 
-Following commands will create a SQLite database called `main.sqlite` in your root folder for development purposes. The `migrate` command deletes the existing database and creates a new one with the DB schema, whereas `seed` command populates the DB with some initial data. These steps are required for running the application.
+Following commands will create a SQLite database called `main.sqlite3` in your root folder for development purposes. The `migrate` command deletes the existing database and creates a new one with the DB schema, whereas `seed` command populates the DB with some initial data. These steps are required for running the application.
 
 * to recreate the database
   * `npm run migrate`
@@ -51,7 +58,7 @@ Following commands will create a SQLite database called `main.sqlite` in your ro
 
 >You may change `db/seed/**` files freely as you require. Once you change `seed` files run `npm run seed` to apply such to the database. Applied seed data will appear when you run the web application.
 
->However, tf you do data base schema changes with `migrations` ensure it doesn't break your test cases or the application.
+>However, if you do data base schema changes with `migrations` ensure it doesn't break your test cases or the application.
 
 ### Building and running the application
 
@@ -59,21 +66,22 @@ To start the server (without nodemon) use the following command:
 
 * `npm start`
 
-Now the application should run at [http://localhost:3000](http://localhost:3000)
+
+We recommend you to use [Visual Studio Code](https://code.visualstudio.com/download) as your code editor, which can be downloaded from . Additionally, for running the client-side, you can use the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) within Visual Studio Code. 
 
 ### How to navigate in the application
 
-The system you are about to develop is an online, on-demand learning management system (similar to Coursera, Udemy, etc.). The functionality already available are straight forward to understand once you login to the system.
+The system you are about to develop is a platform specifically for connecting people with similar hobbies. Users can join communities, share tips and tricks, and collaborate on day-to-day activities related to their hobbies. The application consists of 3 main sub modules named,
 
+1. Colab Hub : 
+2. Project Mate :
+3. Hobby Scout :
+
+ 
 You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
 
-* Username: `abby@hacktitude.io` or `mary@hacktitude.io`
-* Password: `test`
-
-Alternatively you may create an user by yourself.
-
-* Visit 'Sign Up' and Register a new user
-* Login with the new credentials of the user you just created
+* Username: `liyana@hacktitude.io`
+* Password: `hack@1234`
 
 ### Executing the Tests
 
