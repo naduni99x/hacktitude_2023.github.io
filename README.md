@@ -73,9 +73,9 @@ We recommend you to use [Visual Studio Code](https://code.visualstudio.com/downl
 
 The system you are about to develop is a platform specifically for connecting people with similar hobbies. Users can join communities, share tips and tricks, and collaborate on day-to-day activities related to their hobbies. The application consists of 3 main sub modules named,
 
-1. Colab Hub : 
-2. Project Mate :
-3. Hobby Scout :
+1. Colab Hub : This sub module enables users to create a virtual collaboration platform for hobbyists to work together on various activities using shared whiteboard, chat functionality, enabling team formation and goal-oriented projects.
+2. Project Mate : Integrate activity management tools within the app to help users organize and track their hobby activities effectively. Users can create tasks, set deadlines, assign responsibilities, and track progress. This feature can enhance productivity and foster teamwork within the community.
+3. Hobby Scout : Implement a hobby-matching algorithm that suggests potential collaborators based on users' skill sets and hobbies. When users start an activity, the app can recommend other users with complementary skills who might be interested in joining the activity.
 
  
 You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
@@ -104,7 +104,7 @@ You will note that the project code has no `.gitignore` file. Please add a `.git
 
 ```
 node_modules
-main.sqlite
+main.sqlite3
 package-lock.json
 ```
 
