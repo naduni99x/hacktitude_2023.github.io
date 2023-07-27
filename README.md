@@ -91,8 +91,7 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
   * `npm test`
 * To run a single test file of a challenge: e.g.
   * `npm test challenge0.test.js`
-  * `npm test challenge1.test.js`
-  * `npm test challenge2.test.js`
+
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
@@ -145,9 +144,9 @@ Although the challenges are independent from one another, it will be easier for 
 
 Have fun!
 
-|       |  |  |
-| ----------- | ----------- |----------- |
-| [Challenge 0](./challenge-0.md)|||
+|       |
+| ----------- |
+| [Challenge 0](./challenge-0.md)|
 
 
 ## Getting support
