@@ -67,15 +67,15 @@ To start the server (without nodemon) use the following command:
 * `npm start`
 
 
-We recommend you to use [Visual Studio Code](https://code.visualstudio.com/download) as your code editor, which can be downloaded from . Additionally, for running the client-side, you can use the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) within Visual Studio Code. 
+We recommend you to use [Visual Studio Code](https://code.visualstudio.com/download) as your code editor, which can be downloaded from the link. Additionally, for running the client-side, you can use the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) within Visual Studio Code. 
 
 ### How to navigate in the application
 
 The system you are about to develop is a platform specifically for connecting people with similar hobbies. Users can join communities, share tips and tricks, and collaborate on day-to-day activities related to their hobbies. The application consists of 3 main sub modules named,
 
-1. Colab Hub : This sub module enables users to create a virtual collaboration platform for hobbyists to work together on various activities using shared whiteboard, chat functionality, enabling team formation and goal-oriented projects.
-2. Project Mate : Integrate activity management tools within the app to help users organize and track their hobby activities effectively. Users can create tasks, set deadlines, assign responsibilities, and track progress. This feature can enhance productivity and foster teamwork within the community.
-3. Hobby Scout : Implement a hobby-matching algorithm that suggests potential collaborators based on users' skill sets and hobbies. When users start an activity, the app can recommend other users with complementary skills who might be interested in joining the activity.
+1. **Colab Hub** : This sub module enables users to create a virtual collaboration platform for hobbyists to work together on various activities using shared whiteboard, chat functionality, enabling team formation and goal-oriented projects.
+2. **Project Mate** : Integrate activity management tools within the app to help users organize and track their hobby activities effectively. Users can create tasks, set deadlines, assign responsibilities, and track progress. This feature can enhance productivity and foster teamwork within the community.
+3. **Hobby Scout** : Implement a hobby-matching algorithm that suggests potential collaborators based on users' skill sets and hobbies. When users start an activity, the app can recommend other users with complementary skills who might be interested in joining the activity.
 
  
 You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
@@ -90,9 +90,9 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 * To run all test:
   * `npm test`
 * To run a single test file of a challenge: e.g.
-  * `npm test challenge-0.test.js`
-  * `npm test challenge-01`
-  * `npm test challenge-02`
+  * `npm test challenge0.test.js`
+  * `npm test challenge1.test.js`
+  * `npm test challenge2.test.js`
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
