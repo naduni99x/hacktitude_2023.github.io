@@ -35,7 +35,7 @@ Once these are completed, first two tests in `challenge0.test` should succeed. Y
 
 Currently, the system displays a welcome message after successful authentication. The welcome message should include the user's firstname and the right top nav bar should include the users first and last names. 
 
-Scenario
+### Scenario 3
 Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`
 
 
@@ -43,4 +43,4 @@ Welcome message displays `Welcome undefined` and Top nav bar shows `undefined un
   <img src="./images/0c.png" width="350px">
 </p>
 
-Your task is to retrieve the user's firstname and lastname from the backend after successful authentication. Then the firstanme will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
+Your task is to retrieve the users firstname and lastname from the backend after successful authentication. Then the firstanme will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
