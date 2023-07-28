@@ -4,7 +4,7 @@
 
 In the current application, you may have noticed that at incorrect `login` attempts,  the system exposes too much information. For example, the current system displays the below message on the following scenario when the user email is not found.
 
-### Scenario 1
+#### Scenario 1
 
 If the user email does not exist, the system shows the message `User Not Found`
 
@@ -18,7 +18,7 @@ If the user email does not exist, the system shows the message `User Not Found`
 
 It also displays the below message on the following scenario when the password is not matched with the entered email.
 
-### Scenario 2
+#### Scenario 2
 If user email does exists but the password is incorrect, system shows the message `Password Mismatch` 
 
 
@@ -35,7 +35,7 @@ Once these are completed, first two tests in `challenge0.test` should succeed. Y
 
 Currently, the system displays a welcome message after successful authentication. The welcome message should include the user's firstname and the right top nav bar should include the users first and last names. 
 
-### Scenario 3
+#### Scenario 3
 Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`
 
 

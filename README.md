@@ -70,7 +70,9 @@ We recommend you to use [Visual Studio Code](https://code.visualstudio.com/downl
 
 To confirm that the app is up and running you can right click on the index.html file and click on the option "Open with Live Server" as shown in the screenshot below.
 
-<img src="./images/live-server.png" width="350">
+<p align="center">
+  <img src="./images/live-server.png" width="350px">
+</p>
 
 ### How to navigate in the application
 
