@@ -27,7 +27,7 @@ To ensure seamless management of multiple Node.js versions on your machine, it i
 
 Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed to you.
 
-Use Git to clone the project to the local development environment using your credentials. Please note that individual team members will have own git credentials, but the repository will be common for a team.
+Use Git to clone the project to the local development environment using your given credentials. Please note that individual team members will have own git credentials, but the repository will be common for a team.
 
 * git clone `<repository-url>`
 
@@ -43,9 +43,13 @@ In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the name of
 
 You can run the Sanity test file in the `tests` directory with the below command.
 
+For windows users,
 * `npm test _sanity.test.js`
 
-If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fail, that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
+For other users(MacOS, Linux, etc.),
+* `npm run test-nix _sanity.test.js`
+
+If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fails, that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
 
 ### Setting up the development database
 
@@ -93,10 +97,16 @@ You can use the following credentials to login as an already existing user in se
 Use below commands to run the tests. When you FIRST run, all the tests except `_sanity.test` will fail. This is expected.
 
 * To run all test:
+  For windows users,
   * `npm test`
-* To run a single test file of a challenge: e.g.
-  * `npm test challenge0.test.js`
+  For other users(MacOS, Linux, etc.),
+  * `npm run test-nix`
 
+* To run a single test file of a challenge: e.g.
+  For windows users,
+  * `npm test challenge0.test.js`
+  For other users(MacOS, Linux, etc.),
+  * `npm run test-nix challenge0.test.js`
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
@@ -156,9 +166,9 @@ Have fun!
 
 ## Getting support
 
-There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94743546446`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
+There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94 74 354 6446`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
 
-In case of **non-technical support** you may reach out to our Malaysian Representative Anne Gomez on the number `+60182994076` via calls only.
+In case of **non-technical support** you may reach out to our Malaysian Representative Anne Gomez on the number `+60 18 299 4076` via calls only.
 
 ## References
 
