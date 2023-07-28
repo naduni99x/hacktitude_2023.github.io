@@ -6,7 +6,7 @@ In the current application, you may have noticed that at incorrect `login` attem
 
 <table>
 <tr>
-<td valign="middle">If user email is not existing, system shows message `User Not Found`</td>
+<td style="text-align: center">If user email is not existing, system shows message `User Not Found`</td>
 <td><img src="./images/0a.png" width="350px"></td>
 </tr>
 </table>
