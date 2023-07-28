@@ -155,7 +155,7 @@ Have fun!
 
 ## Getting support
 
-There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an administrative need, you may contact the organizers via WhatsApp chat (No support for technical calls) to the phone number `+94743546446`. If we answer a question, we may share your question (anonymously) and our answer, with all contestants via the common WhatsApp chat group you will be added to.
+There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94743546446`. . If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
 
 In case of **non-technical support** you may reach out to our Malaysian Representative Anne Gomez on the number `+60182994076` via calls only.
 
