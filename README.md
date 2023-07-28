@@ -104,7 +104,7 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
   For other users (MacOS, Linux, etc.),
   * `npm run test-nix`
 
-* To run a single test file of a challenge: e.g.
+* To run a single test file of a challenge: 
 
   For windows users,
   * `npm test challenge0.test.js`
@@ -114,7 +114,7 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
-> NOTE: Tests are not using the main.sqlite3 database. Every test creates an an isolated in-memory database.
+> NOTE: Tests are not using the main.sqlite3 database. Every test creates an isolated in-memory database.
 
 ### Add .gitignore
 
