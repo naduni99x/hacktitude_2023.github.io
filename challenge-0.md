@@ -43,4 +43,4 @@ Welcome message displays `Welcome undefined` and Top nav bar shows `undefined un
   <img src="./images/0c.png" width="350px">
 </p>
 
-Your task is to retrieve the users firstname and lastname from the backend after successful authentication. Then the firstanme will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
+Your task is to retrieve the users firstname and lastname from the backend after successful authentication. Then the firstname will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
