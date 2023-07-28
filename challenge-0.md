@@ -36,7 +36,7 @@ Once these are completed, first two tests in `challenge0.test` should succeed. Y
 Currently, the system displays a welcome message after successful authentication. The welcome message should include the user's firstname and the right top nav bar should include the users first and last names. 
 
 #### Scenario 3
-Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`
+Welcome message displays `Welcome undefined` and top nav bar shows `undefined undefined`
 
 
 <p align="center">
