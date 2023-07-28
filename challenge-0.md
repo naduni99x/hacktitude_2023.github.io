@@ -6,17 +6,16 @@ In the current application, you may have noticed that at incorrect `login` attem
 
 | Scenario      |  |
 | ----------- | ----------- |
-| If user email is not existing, system shows message `User Not Found`      | <img src="./images/0a.png" width="350">      |
+| If user email is not existing, system shows message `User Not Found`      | [Challenge 0](./images/0a.png)      |
 
 
 ## Challenge 0.b [1 Point]
 
 It also displays the below message on the following scenario when the password is not matched with the entered email.
 
-| Scenario                                                      | Description                                                  |
-| :-----------------------------------------------------------: | ------------------------------------------------------------ |
-| If user email does exist but the password is incorrect, system shows the message `Password Mismatch` | <img src="./images/0b.png" width="350">                      |
-       |
+| Scenario      |  |
+| ----------- | ----------- |
+| If user email does exists but the password is incorrect, system shows the message `Password Mismatch`   | [Challenge 0](./images/0b.png)        |
 
 This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in both above scenarios, the system shows the exact same message `User authentication failed`.
 
@@ -29,6 +28,6 @@ Currently, the system displays a welcome message after successful authentication
 
 | Scenario      |  |
 | ----------- | ----------- |
-| Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`  | <img src="./images/0c.png" width="350">         |
+| Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`  | [Challenge 0](./images/0c.png)         |
 
 Your task is to retrieve the user's firstname and lastname from the backend after successful authentication. Then the firstanme will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
