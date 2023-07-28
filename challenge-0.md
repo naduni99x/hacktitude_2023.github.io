@@ -8,7 +8,6 @@ In the current application, you may have noticed that at incorrect `login` attem
 
 If the user email does not exist, the system shows the message `User Not Found`
 
-<br/>
 
 <p align="center">
   <img src="./images/0a.png" width="350px">
@@ -22,7 +21,6 @@ It also displays the below message on the following scenario when the password i
 ### Scenario 2
 If user email does exists but the password is incorrect, system shows the message `Password Mismatch` 
 
-<br/>
 
 <p align="center">
   <img src="./images/0b.png" width="350px">
@@ -40,7 +38,6 @@ Currently, the system displays a welcome message after successful authentication
 Scenario
 Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`
 
-<br/>
 
 <p align="center">
   <img src="./images/0c.png" width="350px">
