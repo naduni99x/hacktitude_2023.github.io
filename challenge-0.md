@@ -13,9 +13,10 @@ In the current application, you may have noticed that at incorrect `login` attem
 
 It also displays the below message on the following scenario when the password is not matched with the entered email.
 
-| Scenario      |  |
-| ----------- | ----------- |
-| If user email does exists but the password is incorrect, system shows the message `Password Mismatch`   | <img src="./images/0b.png" width="350">         |
+| Scenario                                                      | Description                                                  |
+| :-----------------------------------------------------------: | ------------------------------------------------------------ |
+| If user email does exist but the password is incorrect, system shows the message `Password Mismatch` | <img src="./images/0b.png" width="350">                      |
+       |
 
 This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in both above scenarios, the system shows the exact same message `User authentication failed`.
 
