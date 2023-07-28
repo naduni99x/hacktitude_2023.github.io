@@ -67,7 +67,11 @@ To start the server (without nodemon) use the following command:
 * `npm start`
 
 
-We recommend you to use [Visual Studio Code](https://code.visualstudio.com/download) as your code editor, which can be downloaded from the link. Additionally, for running the client-side, you can use the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) within Visual Studio Code. 
+We recommend you to use [Visual Studio Code](https://code.visualstudio.com/download) as your code editor, which can be downloaded from the link. Additionally, for running the client-side, you can use the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) within Visual Studio Code.
+
+To confirm that the app is up and running you can right click on the index.html file and click on the option "Open with Live Server" as shown in the screenshot below.
+
+<img src="./images/live-server.png" width="350">
 
 ### How to navigate in the application
 
@@ -99,7 +103,7 @@ As you complete the challenges, respective tests will pass one by one. When you 
 
 ### Add .gitignore
 
-You will note that the project code has no `.gitignore` file. Please add a `.gitignore` file with following content.
+You will have to note that the project code has no `.gitignore` file. Please add a `.gitignore` file with the following content.
 
 ```
 node_modules
