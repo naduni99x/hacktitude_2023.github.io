@@ -7,7 +7,10 @@ In the current application, you may have noticed that at incorrect `login` attem
 ### Scenario 1
 
 If the user email does not exist, the system shows the message `User Not Found`
-<img src="./images/0a.png" width="350px">
+
+<p align="center">
+  <img src="./images/0a.png" width="350px">
+</p>
 
 
 ## Challenge 0.b [1 Point]
@@ -16,7 +19,10 @@ It also displays the below message on the following scenario when the password i
 
 ### Scenario 2
 If user email does exists but the password is incorrect, system shows the message `Password Mismatch` 
-<img src="./images/0b.png" width="350px">
+
+<p align="center">
+  <img src="./images/0b.png" width="350px">
+</p>
 
 This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in both above scenarios, the system shows the exact same message `User authentication failed`.
 
@@ -29,6 +35,9 @@ Currently, the system displays a welcome message after successful authentication
 
 Scenario
 Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`
-<img src="./images/0c.png" width="350px">
+
+<p align="center">
+  <img src="./images/0c.png" width="350px">
+</p>
 
 Your task is to retrieve the user's firstname and lastname from the backend after successful authentication. Then the firstanme will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
