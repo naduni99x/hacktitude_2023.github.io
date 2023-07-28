@@ -43,7 +43,7 @@ In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the name of
 
 You can run the Sanity test file in the `tests` directory with the below command.
 
-* `npm test ./tests/_sanity.test.js`
+* `npm test _sanity.test.js`
 
 If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fail, that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
 
@@ -56,9 +56,8 @@ Following commands will create a SQLite database called `main.sqlite3` in your r
 * to populate initial data
   * `npm run seed`
 
->You may change `db/seed/**` files freely as you require. Once you change `seed` files run `npm run seed` to apply such to the database. Applied seed data will appear when you run the web application.
-
->However, if you do data base schema changes with `migrations` ensure it doesn't break your test cases or the application.
+If you do change `db/seed/**` files, the data base schema changes with `migrations` and it may cause to break your test cases and the application.
+Therefore, ensure not to chnage or modify any files within the `db` and `tests` directories.
 
 ### Building and running the application
 
@@ -79,7 +78,7 @@ The system you are about to develop is a platform specifically for connecting pe
 
 1. **Colab Hub** : This sub module enables users to create a virtual collaboration platform for hobbyists to work together on various activities using shared whiteboard, chat functionality, enabling team formation and goal-oriented projects.
 2. **Project Mate** : Integrate activity management tools within the app to help users organize and track their hobby activities effectively. Users can create tasks, set deadlines, assign responsibilities, and track progress. This feature can enhance productivity and foster teamwork within the community.
-3. **Hobby Scout** : Implement a hobby-matching algorithm that suggests potential collaborators based on users' skill sets and hobbies. When users start an activity, the app can recommend other users with complementary skills who might be interested in joining the activity.
+3. **Hobby Scout** : This submodule revolutionizes the way users connect and collaborate based on their passions.  It offers personalized Friend Recommendations through a Hobby-Matching Algorithm, suggesting users who share necessary hobbies and streamlining team formation.
 
  
 You can use the following credentials to login as an already existing user in seed data. Navigate the application using the main menu.
@@ -99,7 +98,7 @@ Use below commands to run the tests. When you FIRST run, all the tests except `_
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
 
-> NOTE: Tests are not using the main.sqlite database. Every test creates an an isolated in-memory database.
+> NOTE: Tests are not using the main.sqlite3 database. Every test creates an an isolated in-memory database.
 
 ### Add .gitignore
 
@@ -155,7 +154,7 @@ Have fun!
 
 ## Getting support
 
-There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94743546446`. . If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
+There will be minimal to no support available on the context day. We are not in a position to clarify challenge descriptions on individual basis. However in case of an setting up the project need, you may contact the technical support team via a chat on WhatsApp (No support for technical doubts) to the phone number `+94743546446`. If we answer a question, we may share your question (anonymously) and our answer, with all the team leaders via the common WhatsApp chat group where the team leaders will be added to in due course.
 
 In case of **non-technical support** you may reach out to our Malaysian Representative Anne Gomez on the number `+60182994076` via calls only.
 
