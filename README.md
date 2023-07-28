@@ -129,7 +129,7 @@ package-lock.json
 >It is advised that one member of your team create the file, commit and push the .gitignore file to the remote repository with following commands.
 
 * `git add .`
-* `git commit -m "adding git ignore file`
+* `git commit -m "adding .gitignore file"`
 * `git push`
 
 Then other team members can pull the changes from the remote repository to receive the `.gitignore` file to their local machines.
