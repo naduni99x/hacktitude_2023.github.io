@@ -97,15 +97,19 @@ You can use the following credentials to login as an already existing user in se
 Use below commands to run the tests. When you FIRST run, all the tests except `_sanity.test` will fail. This is expected.
 
 * To run all test:
+
   For windows users,
   * `npm test`
-  For other users(MacOS, Linux, etc.),
+
+  For other users (MacOS, Linux, etc.),
   * `npm run test-nix`
 
 * To run a single test file of a challenge: e.g.
+
   For windows users,
   * `npm test challenge0.test.js`
-  For other users(MacOS, Linux, etc.),
+
+  For other users (MacOS, Linux, etc.),
   * `npm run test-nix challenge0.test.js`
 
 As you complete the challenges, respective tests will pass one by one. When you complete all the tasks of a challenge, all tests of the respective challenge should pass. Every Hacktitude challenge has a test case which you can run to validate successful completion of the challenge.
