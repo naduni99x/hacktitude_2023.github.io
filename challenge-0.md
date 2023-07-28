@@ -6,7 +6,7 @@ In the current application, you may have noticed that at incorrect `login` attem
 
 <table>
 <tr>
-<td style="text-align: center">If user email is not existing, system shows message `User Not Found`</td>
+<td style="verticle-align: center">If user email is not existing, system shows message `User Not Found`</td>
 <td><img src="./images/0a.png" width="350px"></td>
 </tr>
 </table>
@@ -17,7 +17,7 @@ It also displays the below message on the following scenario when the password i
 
 <table>
 <tr>
-<td valign="middle">If user email does exists but the password is incorrect, system shows the message `Password Mismatch`</td>
+<td style="verticle-align: center">If user email does exists but the password is incorrect, system shows the message `Password Mismatch`</td>
 <td><img src="./images/0b.png" width="350px"></td>
 </tr>
 </table>
@@ -32,7 +32,7 @@ Currently, the system displays a welcome message after successful authentication
 
 <table>
 <tr>
-<td valign="middle">Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`</td>
+<td style="verticle-align: center">Welcome message displays `Welcome undefined` and Top nav bar shows `undefined undefined`</td>
 <td><img src="./images/0c.png" width="350px"></td>
 </tr>
 </table>
