@@ -2,25 +2,23 @@
 
 ## Challenge 0.a [1 Point]
 
-In the current application, you may have noticed that at incorrect `login` attempts,  the system exposes too much information. For example, the current system displays the below message on the following scenario when the user email is not found.
+In the current application, you may have noticed that at incorrect `login` attempts, the system exposes too much information. For example, the current system displays the below message on the following scenario when the user email is not found.
 
-| Scenario      |  |
-| ----------- | ----------- |
-| If user email is not existing, system shows message `User Not Found`      | <img src="./images/0a.png" width="350px">      |
-
+| Scenario                                                      |  |
+| ----------------------------------------------------------- | ----------- |
+| If user email is not existing, system shows message `User Not Found`      | <img src="./images/0a.png" width="350px" align="center">      |
 
 ## Challenge 0.b [1 Point]
 
 It also displays the below message on the following scenario when the password is not matched with the entered email.
 
-| Scenario      |  |
-| ----------- | ----------- |
-| If user email does exists but the password is incorrect, system shows the message `Password Mismatch`   | <img src="./images/0b.png" width="350px">         |
+| Scenario                                                      |  |
+| ----------------------------------------------------------- | ----------- |
+| If user email does exists but the password is incorrect, system shows the message `Password Mismatch`   | <img src="./images/0b.png" width="350px" align="center">         |
 
 This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in both above scenarios, the system shows the exact same message `User authentication failed`.
 
 Once these are completed, first two tests in `challenge0.test` should succeed. You can verify that by running the the command `npm test`.
-
 
 ## Challenge 0.c [1 Point]
 
