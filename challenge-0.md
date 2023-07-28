@@ -44,3 +44,5 @@ Welcome message displays `Welcome undefined` and top nav bar shows `undefined un
 </p>
 
 Your task is to retrieve the users firstname and lastname from the backend after successful authentication. Then the firstname will appear in the welcome message and both firstname and lastname will appear in the right hand side of the top nav bar.
+
+Once this is completed, the last test in `challenge0.test` should succeed. You can verify that by running the the command `npm test`.
