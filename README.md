@@ -25,9 +25,9 @@ To ensure seamless management of multiple Node.js versions on your machine, it i
 
 ### Clone the project to your local computer
 
-Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed to you.
+Git repository URL and credentials will be available at the start of the contest through a link. This link will be emailed only to the team leader.
 
-Use Git to clone the project to the local development environment using your given credentials. Please note that individual team members will have own git credentials, but the repository will be common for a team.
+Use Git to clone the project to the local development environment using the credentials that will be shared with the team leader.
 
 * git clone `<repository-url>`
 
@@ -37,7 +37,7 @@ Once you clone the project from your team's Git repository, run the following co
 
 * `npm install`
 
-In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the name of the cloned repo folder name.
+In `jest-config.js`, replace the `<INSERT YOUR FILE NAME HERE>` with the name of the cloned repository folder name.
 
 ### Validate if the environment is correctly setup
 
@@ -49,7 +49,7 @@ For windows users,
 For other users(MacOS, Linux, etc.),
 * `npm run test-nix _sanity.test.js`
 
-If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fails, that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
+If you have the environment correctly set up, all the tests should pass in the sanity test. If the sanity test fails with an internal , that is an indication of your environment setup issue, you must first attend to rectifying your development environment.
 
 ### Setting up the development database
 
@@ -60,8 +60,8 @@ Following commands will create a SQLite database called `main.sqlite3` in your r
 * to populate initial data
   * `npm run seed`
 
-If you do change `db/seed/**` files, the data base schema changes with `migrations` and it may cause to break your test cases and the application.
-Therefore, ensure not to chnage or modify any files within the `db` and `tests` directories.
+If you do change `db/seeds/**` files, the data base schema changes with `migrations` and it may cause to break your test cases and the application.
+Therefore, ensure not to change or modify any files within the `db` and `tests` directories.
 
 ### Building and running the application
 
@@ -140,11 +140,9 @@ This is how you may use git to collaborate as a team in solving challenges.
 
 ### Legitimacy of your solution
 
-Apart from the automated tests exposed to you, we will run additional tests on all awarding teams (the top 10) to verify that the team has not attempted to compromise the integrity of the tests. We will also conduct a manual developer review of the awarding teams' submissions.
-
 Any attempt to compromise the integrity of the contest will `unconditionally disqualify` your team. Therefore please ensure you avoid attempting:
 
-* Tampering files in the `test` folder or `config` folder
+* Tampering files in the `tests` folder or `config` folder
 * Hard coding values or logic to pass the test without solving the challenge legitimately
 
 ### Improving your developer Experience (Optional)
