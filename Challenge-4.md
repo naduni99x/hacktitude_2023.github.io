@@ -14,7 +14,7 @@ The provided test suite checks the functionality of retrieving an array of frien
 
 The test retrieves the list of accepted friends for the authenticated user from the database. It then sends GET requests to the appropriate endpoints to fetch the details of each friend based on their `id`. The test validates that the responses contain the correct information for each friend, as shown below.
 
-Implement the method `viewFriends(id)` inside the `friendRepository` to return the friends in the `friends` table. Check whether there are records where the respective user sent a request whose status is `ACCEPTED` and the user received a request whose status is `ACCEPTED`. The parameter `id` in the method `viewFriends(id)` refers to the `id` attribute in the `friends` table. Then return the list of friends as below.
+Implement the method `viewFriends(id)` inside the `friendRepository` to return the friends in the `friends` table. Check whether there are records where the respective user has sent a request whose status is `ACCEPTED` and the user received a request whose status is `ACCEPTED`. The parameter `id` in the method `viewFriends(id)` refers to the `id` attribute in the `friends` table. Then return the list of friends as below.
 
 Hint: You can use the `getUser(id)` method in `userRepository` to fetch each user's details and return an array of users as friends.
 

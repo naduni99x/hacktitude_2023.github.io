@@ -31,6 +31,9 @@ As you can see, both have a similar hobby `Soccer`. But their rates are differen
 1. Check users with similar hobbies.
 2. Find the rate difference (absolute difference) of the similar hobbies of the respective users (in the above example, it should be 1).
 3. Get the users (as an array) who have the minimum rate difference.
+    - You need to find the rate difference of the users.
+    - Sort them according the the rate differences found. 
+    - Find the minimum rate difference of the users.
 4. Check whether any of those users are already friends by queuing with the `friends` table.
 5. If so, remove them from the list of users above.
 6. Return the first 5 users (who have the lowest rate difference) as the output.

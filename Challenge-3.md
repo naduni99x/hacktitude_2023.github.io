@@ -33,13 +33,64 @@ API : ```/api/friends/request``` should return ```"Request already received!"```
 
 ## Challenge 3.d
 
-This test checks whether the system correctly counts the number of friend requests sent by a user. Your task is to update the method `viewSentReqs(id)` inside the `friendsRepository` to return users to whom requests were sent. `id` refers to the `sender_id` attribute of the `friends` table. Query through the `friends` table and check whether there are any records with the given `sender_id`. However, only the `PENDING` requests should return as the number of friend requests sent by a user.
+This test checks whether the system correctly counts the number of friend requests sent by a user. Your task is to update the method `viewSentReqs(id)` inside the `friendsRepository` to return users to whom requests were sent. Here `id` refers to the `sender_id` attribute of the `friends` table. Query through the `friends` table and check whether there are any records with the given `sender_id`. However, only the `PENDING` requests should return as the number of friend requests sent by a user.
 
 Hint: You can use the `getUser(id)` method in `userRepository` to fetch each user's details and return an array of users whose requests were sent as the output.
 
 If the user doesn't have any sent friend requests, then the method should return an empty array.
 
 If the user has sent any friend requests, then the output should be like this,
+```json
+ [
+        {
+            "id": 6,
+            "email": "liyana@hacktitude.io",
+            "gender": "Female",
+            "firstname": "Liyana",
+            "lastname": "Tan",
+            "image_url": "https://i.pinimg.com/originals/29/a8/20/29a82067b71bd9e3df95e1c0ba5c4daf.jpg",
+            "hobbies": [
+                {
+                    "name": "Soccer",
+                    "rate": 4
+                },
+                {
+                    "name": "Coding",
+                    "rate": 5
+                },
+                {
+                    "name": "Music",
+                    "rate": 3
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Java",
+                    "rate": 3
+                },
+                {
+                    "name": "Javascript",
+                    "rate": 4
+                },
+                {
+                    "name": "Photography",
+                    "rate": 3
+                }
+            ],
+            "reqId": 4
+        }
+    ]
+```
+In the above response, `id` refers to each user's `id` in the `users` table.
+For this test case, the method should return an empty array as there are no records with `sender_id` of user `Liyana` where the `status` is `PENDING` in the `friends` table.
+
+## Challenge 3.e
+
+The test retrieves an array of pending friend requests for the authenticated user and validates the response against the expected format. Your task is to implement the `viewPendingReqs(id)` method inside `friendsRepository` to return the users for whom the requests were received. Parameter `id` is the `recipient_id` in the `friends` table.
+
+Hint: You can use the `getUser(id)` method in `userRepository` to fetch each user's details and return an array of users whose requests were received as the output.
+
+If the user hasn't received any friend requests, output should be an empty array and if the the user has received any friend requests then the output should be like this,
 ```json
 [
     {
@@ -76,51 +127,12 @@ If the user has sent any friend requests, then the output should be like this,
                 "name": "Python",
                 "rate": 3
             }
-        ]
-    },
-    {
-        "id": 2,
-        "email": "ney@nj.com",
-        "gender": "Male",
-        "firstname": "Neymar",
-        "lastname": "Jr.",
-        "image_url": "https://pbs.twimg.com/media/EK-YsU9XYAU7R-o?format=jpg&name=medium",
-        "hobbies": [
-            {
-                "name": "Music",
-                "rate": 1
-            },
-            {
-                "name": "Soccer",
-                "rate": 5
-            },
-            {
-                "name": "Video Games",
-                "rate": 2
-            }
         ],
-        "skills": [
-            {
-                "name": "Javascript",
-                "rate": 5
-            },
-            {
-                "name": "Photography",
-                "rate": 4
-            }
-        ]
-    }
+        "reqId": 4
+    },
 ]
 ```
-In the above response, `id` refers to each user's `id` in the `users` table.
-For this test case, the method should return an empty array as there are no records with `sender_id` of user `Liyana` where the `status` is `PENDING` in the `friends` table.
-
-## Challenge 3.e
-
-The test retrieves an array of pending friend requests for the authenticated user and validates the response against the expected format. Your task is to implement the `viewPendingReqs(id)` method inside `friendsRepository` to return the users for whom the requests were received. Parameter `id` is the `recipient_id` in the `friends` table.
-
-Hint: You can use the `getUser(id)` method in `userRepository` to fetch each user's details and return an array of users whose requests were received as the output.
-
+In this response, `reqId` is the `id` attribute of the `friends` table.
 After successful implementation, you will be able to view the pending friend requests through the application as below.
 <p align="center">
   <img src="./images/3e.png" width="350px">

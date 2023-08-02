@@ -4,6 +4,8 @@
 
 In the current application, you may have noticed that at incorrect `login` attempts,  the system exposes too much information. For example, the current system displays the below message on the following scenario when the user email is not found.
 
+This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in the above scenario, the system shows the exact same message `User authentication failed`.
+
 #### Scenario 1
 
 If the user email does not exist, the system shows the message `User Not Found`
@@ -26,7 +28,7 @@ If user email does exists but the password is incorrect, system shows the messag
   <img src="./images/0b.png" width="350px">
 </p>
 
-This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in both above scenarios, the system shows the exact same message `User authentication failed`.
+This is a bad security practice, as hackers will be able to verify if an user account is existing by simply testing around the system. Your task is to fix this by ensuring in the above scenario, the system shows the exact same message `User authentication failed`.
 
 Once these are completed, first two tests in `challenge0.test` should succeed. You can verify that by running the the command `npm test`.
 
